@@ -22,6 +22,12 @@ header {
   list-style-type: none;
 }
 
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: bottom;
+}
+
 .admin-username {
   margin: 1rem 1rem 0 0rem;
 
@@ -32,6 +38,10 @@ header {
 
 }
 
+main {
+  background-color: #efefefef;
+}
+
 h1 {
   border: 2px black solid;
   margin-left: .5em;
@@ -40,11 +50,6 @@ h1 {
   align-items: bottom;
 }
 
-.right-section {
-  display: flex;
-  flex-direction: column;
-  align-items: bottom;
-}
 
 .grid-container {
   /*max-width: 100%;*/
@@ -68,12 +73,20 @@ h1 {
 
 .box-margin-right {
   margin-right: 1em;
+}
 
+.photo-section {
+  height: 7em;
 }
 
 .box1 {
   grid-area: box1;
+}
 
+.box1-photo {
+  background-image: url('images/bana-jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box2 {
