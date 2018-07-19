@@ -64,6 +64,7 @@ h1 {
 
 .box {
   border: 2px black solid;
+  width: 300px;
   
 }
 
@@ -75,8 +76,22 @@ h1 {
   margin-right: 1em;
 }
 
+.fa-arrow-circle-right {
+  font-size: 1em;
+}
+
 .photo-section {
   height: 7em;
+}
+
+.card-info-section {
+  margin-left: 1em;
+  lin
+}
+
+.card-info-link {
+  background: #efefef;
+
 }
 
 .box1 {
@@ -84,9 +99,9 @@ h1 {
 }
 
 .box1-photo {
-  background-image: url('images/bana-jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: cover url(images/bana.jpg);
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 .box2 {
