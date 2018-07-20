@@ -52,29 +52,28 @@ h1 {
 
 
 .grid-container {
-  /*max-width: 100%;*/
-  margin: 1rem, 1rem, 0, 1rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px 10px;
-  grid-template-areas: 
-    "box1 box2 box3 box4"
-    "box5 box6 box7 box8" 
+ margin: 0 2.5rem 0 1rem;
+ /*width: 95%;*/
+ /*max-width: 1000px;*/
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+ grid-gap: 10px;
 }
+
 
 .box {
   border: 2px black solid;
-/*  width: 325px;
-  height: 450px;*/
+  /*width: 277px;*/
+  height: 475px;
 }
 
-.box-margin-left {
+/*.box-margin-left {
   margin-left: 15px;
 }
 
 .box-margin-right {
   margin-right: 15px;
-}
+}*/
 
 .fa-arrow-circle-right {
   font-size: 1.75em;
@@ -98,8 +97,17 @@ h1 {
 
 ul {
   text-align: center;
-  margin: .5em .5em 0 0;
+  margin: .5em 1em 0 0;
   list-style-type: none
+}
+
+.views {
+
+}
+
+.views-nmbr {
+  margin-top: .2em;
+  font-size: 2em;
 }
 
 .card-info-section {
@@ -123,7 +131,7 @@ ul {
 }
 
 .box1 {
-  grid-area: box1;
+/*  grid-area: box1;*/
 }
 
 .box1-photo {
@@ -132,43 +140,79 @@ ul {
 }
 
 .box2 {
-  grid-area: box2;
+  /*grid-area: box2;*/
+  
+  /*background-size: cover;*/
+}
+.box2-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
 .box3 {
-  grid-area: box3;
+  /*grid-area: box3;*/
+ 
+  /*background-size: cover;*/
+}
+.box3-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
 .box4 {
-  grid-area: box4;
+  /*grid-area: box4;*/
+  
+  /*background-size: cover;*/
+}
+.box4-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
 .box5 {
-  grid-area: box5;
+  /*grid-area: box5;*/
+ 
+  /*background-size: cover;*/
+}
+.box5-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
 .box6 {
-  grid-area: box6;
+ /* grid-area: box6;*/
+ 
+}
+.box6-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
 .box7 {
-  grid-area: box7;
+  /*grid-area: box7;*/
+  
+}
+.box7-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
 .box8 {
-  grid-area: box8;
+  /*grid-area: box8;*/
+  
+}
+.box8-photo {
+  background: url(images/bana.jpg);
+  background-size: cover;
 }
 
-@media screen and (max-width: 1000px) {
-  .grid-container {
-  margin: 1rem, 1rem, 0, 1rem;
-  display: grid;
-  /*align-items: auto;*/
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem 1rem;
-  grid-template-areas: 
-    "box1 box2 box3" 
-    "box4 box5 box6"
-    "box7 box8" 
-  }
+/*@media (max-width: 900px) {
+
+ .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-areas:
+     "box1 box2 box3"
+     "box4 box5 box6"
+     "box7 box8";*/
+  
 
