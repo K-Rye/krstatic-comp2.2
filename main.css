@@ -20,8 +20,12 @@ header {
 .li-container {
   display: flex;
   justify-content: space-between;
-  margin: 6rem 1rem 1rem 1rem;
+  margin: 8rem 1rem 1rem 1rem;
   /*flex-direction: end;*/
+}
+
+.shares {
+  display: inline-block;
 }
 
 .navigation {
@@ -48,19 +52,20 @@ header {
 }
 
 .admin-username {
-  margin: 1rem 1rem 0 0rem;
-
+  margin: 1rem 1rem 1rem 3rem;
 }
+
 
 .win-icon {
   /*display: inline-block;*/
   font-size: 3em;
-  margin: 4rem 0.5rem 0rem 3rem;
+  margin: 3rem 1.5rem 2rem 0rem;
 
 }
 
-.fa-hand-peace {
-  font-size: 2em;
+i.far {
+  /*display: inline-block;*/
+  font-size: 1em;
 
 }
 
@@ -114,6 +119,10 @@ h1 {
   color: #fefefe;
 }
 
+.fa-user-circle {
+  font-size: 1em;
+}
+
 .fa-arrow-alt-circle-left {
   font-size: 3em;
   margin: .15em 0 0 .15em;
@@ -126,6 +135,7 @@ ul {
 }
 
 .views {
+  font-size: .75em;
 
 }
 
@@ -163,7 +173,7 @@ ul {
 }
 
 .card-line4-5 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .playlist {
@@ -175,7 +185,7 @@ ul {
 }
 
 .card-line6-7 {
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
 }
 
 .attachments {
@@ -268,6 +278,36 @@ ul {
   }
 }
 
+@media (max-width: 760px) {
+  header {
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  .li-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 1rem 1rem 1rem;
+  /*flex-direction: end;*/
+  }
+
+  .win-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  margin: 1rem;
+  }
+
+  .admin-username {
+    display: flex;
+    justify-content: center;
+  /*margin: 1rem 1rem 1rem 3rem;*/
+  }
+}
+ 
+
 @media (max-width: 679px) {
   .grid-container {
     margin: 0 8rem 0 8rem;
@@ -290,6 +330,7 @@ ul {
   .grid-container {
     margin: 0 4rem 0 4rem;
   }
+
   h1{
     margin-left: 4rem;
   }
@@ -299,8 +340,28 @@ ul {
   .grid-container {
     margin: 0 3rem 0 3rem;
   }
+
   h1{
     margin-left: 3rem;
+  }
+
+  .li-container {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .fas {
+    font-size: 2em;
+  }
+
+  .fa-user-circle {
+    font-size: 2em;
+  }
+
+
+  .shares {
+    display: none;
   }
 }
 
@@ -312,6 +373,7 @@ ul {
     margin-left: 2rem;
   }
 }
+
 
 @media (max-width: 348px) {
   .grid-container {
