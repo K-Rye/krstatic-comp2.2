@@ -28,6 +28,10 @@ header {
   display: inline-block;
 }
 
+.fa:hover,.fas:hover,.shares:hover {
+  color: #fefefe;
+}
+
 .navigation {
   /*display: flex;*/
   /*flex-direction: column;*/
@@ -51,20 +55,22 @@ header {
   align-items: bottom;
 }
 
-.admin-username {
+i.person-head {
+  font-size: 1.5em;
   margin: 1rem 1rem 1rem 3rem;
 }
 
+.admin {
+  font-size: 1rem;
+}
 
 .win-icon {
-  /*display: inline-block;*/
   font-size: 3em;
   margin: 3rem 1.5rem 2rem 0rem;
 
 }
 
 i.far {
-  /*display: inline-block;*/
   font-size: 1em;
 
 }
@@ -289,8 +295,7 @@ ul {
   .li-container {
   display: flex;
   justify-content: space-around;
-  margin: 5rem 1rem 1rem 1rem;
-  /*flex-direction: end;*/
+  margin: 4rem 1rem 1rem 1rem;
   }
 
   .win-icon {
