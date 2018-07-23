@@ -106,6 +106,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   height: 10em;
+  color: #ac774a;
 }
 
 .far {
@@ -124,6 +125,11 @@ h1 {
 .fa-arrow-alt-circle-left {
   font-size: 3em;
   margin: .15em 0 0 .15em;
+}
+
+.fa-arrow-alt-circle-left:hover {
+  color: #bdbd93;
+
 }
 
 ul {
@@ -185,33 +191,39 @@ ul {
 }
 
 .box1-photo {
-  background: url(images/bana.jpg);
+  background: url(images/horse.jpg);
   background-size: cover;
+  background-position: cover;
+  background-position: center;
 }
 
 .box2-photo {
-  background: url(images/bana.jpg);
+  background: url(images/guitar.jpg);
   background-size: cover;
 }
 
 .box3-photo {
-  background: url(images/bana.jpg);
+  background: url(images/surf.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .box4-photo {
-  background: url(images/bana.jpg);
+  background: url(images/hairs.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .box5-photo {
-  background: url(images/bana.jpg);
+  background: url(images/dogman.jpg);
   background-size: cover;
+  background-position: bottom;
 }
  
 .box6-photo {
-  background: url(images/bana.jpg);
+  background: url(images/fisheye.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .box7-photo {
@@ -220,7 +232,8 @@ ul {
 }
 
 .box8-photo {
-  background: url(images/bana.jpg);
+  background: url(images/chevy.jpg);
+  background-position: center;
   background-size: cover;
 }
 
