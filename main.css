@@ -98,7 +98,7 @@ h1 {
 }
 
 .box {
-  box-shadow: 3px 3px #E7E7E7;
+  box-shadow: 3upx 3px #E7E7E7;
   /*border: 2px black solid;*/
   /*width: 277px;*/
   height: 475px;
