@@ -59,9 +59,11 @@ i.person-head {
 
 .admin {
   font-size: 1rem;
+  margin-right: 1em;
 }
 
 .win-icon {
+  color: #ac774a;
   font-size: 3em;
   font-style: italic;
   font-weight: 700;
@@ -269,26 +271,26 @@ ul {
   .li-container {
     display: flex;
     justify-content: space-around;
-    margin: 3rem 1rem 2rem 1rem;
+    margin: 3rem 1rem 3rem 1rem;
   }
 
   .win-icon {
     display: flex;
     justify-content: center;
     font-size: 3em;
-    margin: 1rem;
+    margin: 2.5rem;
   }
 
   .admin {
     display: flex;
     justify-content: center;
-    font-size: 1em;
+    font-size: .85em;
+    margin:0 0 0 .5em;
   }
 
   i.person-head {
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     font-size: 1.5em;
     margin: auto;
   }
