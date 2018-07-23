@@ -5,7 +5,7 @@
 }
 
 body {
-   background-color: #efefefef;
+   background-color: #c6c2c2;
 }
 
 /*TOP LOGO AND NAVIGATION HEADER*/
@@ -88,22 +88,17 @@ h1 {
 
 .grid-container {
  margin: 0 2.5rem 0 1rem;
- /*width: 95%;*/
- /*max-width: 1000px;*/
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
  grid-gap: 15px;
 }
 
 .box {
-  box-shadow: 3px 3px #E7E7E7;
+  box-shadow: 3px 3px #7c7979;
   background-color: #363029; 
   color: #bdbd93;
-  /*border: 2px black solid;*/
-  /*width: 277px;*/
   height: 475px;
 }
-
 
 /*CARD PHOTO SECTION*/
 
@@ -157,7 +152,6 @@ ul {
   font-size: 1.25rem;
   line-height: 1.25em;
   font-family: 'Lato', sans-serif;
-
 }
 
 .card-line-link {
@@ -190,17 +184,9 @@ ul {
   color: #ac774a;
 }
 
-.box1 {
-
-}
-
 .box1-photo {
   background: url(images/bana.jpg);
   background-size: cover;
-}
-
-.box2 {
-  
 }
 
 .box2-photo {
@@ -208,55 +194,31 @@ ul {
   background-size: cover;
 }
 
-.box3 {
-  
-}
-
 .box3-photo {
   background: url(images/bana.jpg);
   background-size: cover;
 }
 
-.box4 {
- 
-
-}
 .box4-photo {
   background: url(images/bana.jpg);
   background-size: cover;
-}
-
-.box5 {
- 
 }
 
 .box5-photo {
   background: url(images/bana.jpg);
   background-size: cover;
 }
-
-.box6 {
-
  
-}
 .box6-photo {
   background: url(images/bana.jpg);
   background-size: cover;
 }
 
-.box7 {
- 
-  
-}
 .box7-photo {
   background: url(images/bana.jpg);
   background-size: cover;
 }
 
-.box8 {
-
-  
-}
 .box8-photo {
   background: url(images/bana.jpg);
   background-size: cover;
