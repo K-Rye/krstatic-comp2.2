@@ -6,6 +6,7 @@
 
 body {
    background-color: #c6c2c2;
+   max-width: 1600px;
 }
 
 /*TOP LOGO AND NAVIGATION HEADER*/
@@ -15,6 +16,7 @@ header {
   justify-content: space-between;
   background-color: #363029;
   color: #bdbd93;
+  max-width: 100%;
 }
 
 .li-container {
@@ -29,6 +31,7 @@ header {
 
 .win-icon:hover,.fa:hover,.fas:hover,.shares:hover {
   color: #ac774a;
+  cursor: pointer;
 }
 
 .navigation {
@@ -91,7 +94,7 @@ h1 {
 .grid-container {
  margin: 0 2.5rem 0 1rem;
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  grid-gap: 15px;
 }
 
@@ -118,6 +121,7 @@ h1 {
 
 .far:hover {
   color: #ac774a;
+  cursor: pointer;
 }
 
 .fa-user-circle {
@@ -131,6 +135,7 @@ h1 {
 
 .fa-arrow-alt-circle-left:hover {
   color: #bdbd93;
+  cursor: pointer;
 
 }
 
@@ -251,7 +256,7 @@ ul {
   
   h1 {
     margin-left: 3rem;
-    }
+  }
 
   .navigation {
   font-size: 1.25em;
@@ -295,12 +300,18 @@ ul {
     margin: auto;
   }
 }
- 
 
+@media (max-width: 724px) {
+  .grid-container {
+    margin: 0 1rem 0 1rem;
+  }
+}
+ 
 @media (max-width: 679px) {
   .grid-container {
     margin: 0 8rem 0 8rem;
   }
+
   h1{
     margin-left: 8rem;
   }
@@ -331,7 +342,7 @@ ul {
 
   i.person-head {
     font-size: 3em;
- }
+  }
 }
 
 @media (max-width: 451px) {
@@ -362,7 +373,7 @@ ul {
   h1{
    margin-left: 2rem;
   }
-
+}
 
 @media (max-width: 348px) {
   .grid-container {
@@ -375,15 +386,17 @@ ul {
 
   .navigation {
     margin-left: 2rem;
+  }
+}
 
+@media (max-width: 333px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+  }
 }
 
 
-  /*.fa-bars {
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }*/
-}
 
 
 
