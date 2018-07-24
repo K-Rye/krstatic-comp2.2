@@ -248,6 +248,8 @@ ul {
   background-size: cover;
 }
 
+/*MEDIA QUERIES*/
+
 @media (max-width: 1000px) {
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
