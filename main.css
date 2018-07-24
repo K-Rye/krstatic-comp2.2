@@ -6,7 +6,6 @@
 
 body {
    background-color: #c6c2c2;
-   max-width: 1600px;
 }
 
 /*TOP LOGO AND NAVIGATION HEADER*/
@@ -16,7 +15,6 @@ header {
   justify-content: space-between;
   background-color: #363029;
   color: #bdbd93;
-  max-width: 100%;
 }
 
 .li-container {
